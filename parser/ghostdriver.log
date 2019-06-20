@@ -1,0 +1,12 @@
+[INFO  - 2019-06-20T08:47:23.085Z] GhostDriver - Main - running on port 54486
+[INFO  - 2019-06-20T08:47:24.013Z] Session [060519c0-9338-11e9-9a28-a746188844ea] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-06-20T08:47:24.013Z] Session [060519c0-9338-11e9-9a28-a746188844ea] - page.customHeaders:  - {}
+[INFO  - 2019-06-20T08:47:24.013Z] Session [060519c0-9338-11e9-9a28-a746188844ea] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-06-20T08:47:24.014Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 060519c0-9338-11e9-9a28-a746188844ea
+[ERROR - 2019-06-20T08:47:25.304Z] Session [060519c0-9338-11e9-9a28-a746188844ea] - page.onError - msg: TypeError: undefined is not an object (evaluating '$.browser.msie')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-20T08:47:25.304Z] Session [060519c0-9338-11e9-9a28-a746188844ea] - page.onError - stack:
+  (anonymous function) (https://adm.pl.court.gov.ua/js/jquery.tooltip.js:27)
+
+  phantomjs://platform/console++.js:263 in error
